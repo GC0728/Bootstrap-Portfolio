@@ -1,7 +1,11 @@
 *{
     widows: 960px;;
 }
+#apc{
+    margin-right:180px;
+    background-color:orange;
 
+}
 a{
     color:#666666;
     text-decoration:none;
@@ -13,18 +17,19 @@ a{
 }
 
 body{
-    
+    background-image: url(assets/images/back1.jpg);
+
 }
 
 .me{
     background:#4aaaa5;
     color:#ffffff;
-    padding:15px;
+    padding:10px;
     /* padding-bottom:10px; */
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     /* font-size:24px; */
     /* float: left; */
-    margin-left:145px;
+    margin-left:170px;
     /* margin-top:20px; */
     /* margin-top:10px; */
     /* text-align:left; */
@@ -36,8 +41,8 @@ body{
 }
 
 img{
-    /* height:50px; */
-    /* width:100px; */
+    height:25%;
+    /* width:25%; */
 
 }
 
@@ -56,6 +61,13 @@ img{
 /* p{
     display:block; NO EFFECT WITH NAVBAR-TEXT*/
  
+.work{
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    background-color:white;
+    height:274px;
 
-
-}
+  }
